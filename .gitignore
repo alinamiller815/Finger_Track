@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Conda
+*.conda
+*.lock
+
+
+# Virtual environments
+venv/
+.env/         # локальные IDE env директории
+*/.venv/
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
